@@ -9,10 +9,19 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/webpack-config": "^18.0.1",
+    "@zerodevapp/sdk": "^3.1.24",
+    "@zerodevapp/wagmi": "^3.1.12",
+    "ethers": "^5.7",
     "expo": "~48.0.15",
+    "expo-crypto-polyfills": "^1.1.0",
     "expo-status-bar": "~1.4.4",
+    "node-libs-react-native": "^1.2.1",
     "react": "18.2.0",
-    "react-native": "0.71.8"
+    "react-dom": "18.2.0",
+    "react-native": "0.71.8",
+    "react-native-web": "~0.18.10",
+    "wagmi": "^0.12"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
